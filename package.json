@@ -1,0 +1,28 @@
+{
+  "name": "arquitectura-software-proyecto-integrador-semana-5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proyecto integrador didáctico de Arquitectura de Software",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0",
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^5.0.0",
+    "pg": "^8.13.0"
+  }
+}
